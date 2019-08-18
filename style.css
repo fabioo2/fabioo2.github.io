@@ -1,0 +1,24 @@
+#header {
+	background: url(https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixli) center center / cover no-repeat
+
+}
+
+body {
+	font-family: PT Serif;	
+}
+
+.navbar a, .navbar li {
+	font-size: 0.9rem;
+}
+
+.container .clients {
+	font-size: 2rem;
+}
+
+#clients {
+	font-size: 1.6rem;
+}
+
+#hero {
+	color: white;
+}
