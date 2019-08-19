@@ -2,8 +2,9 @@ New website landing page made with Bootstrap 4
 includes
 -hero image
 -reviews
+-about page
 needs
--about
+-link to proz
 -rates
 -contact form
 -actually do stuff
