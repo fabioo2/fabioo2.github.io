@@ -1,14 +1,20 @@
 #header {
-	background: url(https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixli) center center / cover no-repeat
+	background: url(https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixli) center center / cover no-repeat;
+	font-family: "PT Serif";
+}
 
+section {
+	height: 100vh;
 }
 
 body {
-	font-family: PT Serif;	
+	font-family: "Nunito";	
 }
 
 .navbar a, .navbar li {
-	font-size: 0.9rem;
+	font-size: 1.2rem;
+	font-weight: 100;
+	font-family: "Nunito";
 }
 
 .container .clients {
@@ -22,3 +28,13 @@ body {
 #hero {
 	color: white;
 }
+
+.navbar {
+	background-color: rgb(195,214,220, 0.6);
+}
+
+#aboutMe {
+	
+	font-weight: 100;
+}
+
