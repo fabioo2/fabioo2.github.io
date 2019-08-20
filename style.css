@@ -1,7 +1,18 @@
 #header {
-	background: url(https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixli) center center / cover no-repeat;
+	background: url(https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixli) center / cover no-repeat;
 	font-family: "PT Serif";
 }
+
+#header .info {
+	background-color: rgb(195,214,220, 0.6);
+	color: white;
+}
+
+#header .start {
+	background-color: rgb(34,120,81, 0.6);
+	color: white;
+}
+
 
 section {
 	height: 100vh;
@@ -18,7 +29,7 @@ body {
 }
 
 .container .clients {
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 #clients {
@@ -30,11 +41,15 @@ body {
 }
 
 .navbar {
-	background-color: rgb(195,214,220, 0.6);
+	background-color: rgb(195,214,220, 0.8);
 }
 
 #aboutMe {
-	
+	font-size: 10px;
 	font-weight: 100;
+	line-height: 2.0;
 }
 
+.lead {
+	font-size: 1.0rem ;
+}
