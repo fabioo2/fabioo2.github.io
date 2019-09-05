@@ -4,7 +4,8 @@ includes
 -reviews
 -about page
 needs
--link to proz
--rates
--contact form
--login/logout
+  -link to proz
+  -rates
+  -contact form
+  -login/logout
+  -transitions
