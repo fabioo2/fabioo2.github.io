@@ -1,5 +1,5 @@
 #header {
-	background: url(https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixli) center / cover no-repeat;
+	background: url(./img/annie-spratt-bGdiuIyN3Rs-unsplash.jpg) center / cover no-repeat;
 	font-family: "PT Serif";
 }
 
@@ -24,7 +24,7 @@ body {
 
 .navbar a, .navbar li {
 	font-size: 1.2rem;
-	font-weight: 100;
+	font-weight: 800;
 	font-family: "Nunito";
 }
 
@@ -53,3 +53,4 @@ body {
 .lead {
 	font-size: 1.0rem ;
 }
+
