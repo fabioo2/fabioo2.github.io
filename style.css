@@ -54,3 +54,10 @@ body {
 	font-size: 1.0rem ;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+	box-shadow: none;
+	border: none;
+}
