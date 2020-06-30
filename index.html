@@ -7,12 +7,17 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css"  href="style.css">
+    <link rel="stylesheet" type="text/css" href="animate.compat.css">
     <script src="https://kit.fontawesome.com/5537c73d06.js"></script>
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  
-
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <title>Translations by Haemin</title>
   </head>
   <body>
@@ -39,18 +44,15 @@
             </ul>
             <ul class="navbar-nav navbar-right">
                 <li class="nav-item">
-                    <a href="" class="nav-link">Login<i class="fas fa-user ml-2"></i></a>
+                    <a href="#" class="nav-link">Login<i class="fas fa-user ml-2"></i></a>
                 </li>               
-                <li class="nav-item">
-                    <a href="" class="nav-link">Sign-Up<i class="fas fa-user-plus ml-2"></i></a>
-                </li>
             </ul> 
         </div>
     </nav>
 
     <section id="header" class="jumbotron text-center d-flex flex-row justify-content-center align-items-center" ">
       <div class= "container" id="hero">
-        <h1 class="display-3 font-weight-bold">Haemin Park</h1>
+        <h1 class="display-3 font-weight-bold wow slideInDown">Haemin Park</h1>
         <h3>Your go-to source for Professional Korean/English Translations</h3>
         <a href="https://www.proz.com/profile/2469809" class="btn btn-outline-muted mt-4 info" >More Information</a>
         <a href="https://www.proz.com/?sp=mailsend&eid_s=2469809" class="btn btn-outline-muted mt-4 start" >Start Now</a>
@@ -63,12 +65,12 @@
 
     <section id="aboutMe" class="container" style="height: 100vh;">
       <div class="row justify-content-between align-items-center">
-        <div class="col-md-6 order-2 order-md-1 d-none d-lg-block">
+        <div class="col-md-6 order-2 order-md-1 d-none d-lg-block wow fadeIn" data-wow-duration="3s">
           <img src="./img/haemin.jpg" class="img-fluid">
         </div>
         <div class="col-md-6 text-center order-1 order-md-2 ">
           <div class="row justify-content-center">
-            <div class="col-10, col-lg-8">
+            <div class="col-10, col-lg-8 wow fadeInRightBig">
                
                <br>
                 <p class="lead">Hi I'm Haemin. I am a Native Korean translator currently based in Ontario, Canada and I want to be your translator! <br><br> I write fluently, and in a culturally appropriate manner in both Korean and English. I also work very closely with an Native English editor to ensure quality on translation to English projects. I can translate up to 100,000 words per month for any project you might have. <br><br> For a more full and detailed look at my work experience, please refer to the section below and also take some time to read all the reviews from satisfied clients!</p>
@@ -82,7 +84,7 @@
         <hr>
     </div>
 
-    <div class="container" id="clients">
+    <div class="container wow pulse" id="clients">
       <p>What Clients are saying...</p>
     </div>
 
@@ -137,7 +139,7 @@
             <hr>
         </div>
 
-        <div class="container" id="clients">
+        <div class="container wow pulse" id="clients">
             <p>My Experience...</p>
         </div>
         
